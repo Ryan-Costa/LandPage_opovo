@@ -1,0 +1,139 @@
+:root {
+    --title-color: rgb(19, 34, 99);
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    display: flex;    
+}
+
+header img{
+    margin-top: 20px;
+    position: absolute;
+
+}
+
+header a{
+    color: var(--title-color);
+    text-decoration: none;
+}
+
+header a h4{
+    margin-left: 30px
+}
+
+header a span {
+    background: url('../assets/arrow-left.svg');
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: #f3efef;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;   
+
+    margin-left: 490px;
+    margin-bottom: 200px;
+
+    max-width: 500px;
+    
+    
+    
+    
+}
+#content{
+    align-items: center;
+    justify-content: center;
+
+    
+    
+
+    color: var(--title-color);
+}
+
+
+
+#content a  {
+    background: url(../assets/arrow-left.svg) no-repeat;
+}
+
+fieldset h5{
+    font-size: 120%;
+}
+
+form {
+    background: #c9dbf3;
+    color: var(--title-color);
+    width: 400px;
+      
+}
+
+
+div div .first {
+    display:grid;
+    grid-template-columns: 100px;
+}
+
+div .general input {
+    background: #c9dbf3;
+    border-radius: 4px;
+}
+
+div div .first input{
+    width:350%;
+}
+
+div .field-group1{
+    display: flex;
+}
+
+div .field-group2{
+    display: flex;
+}
+
+.field-state {
+    margin-left: 5px;
+}
+
+.anexo {
+    display: flex;
+}
+
+.anexo input {
+    color: white;
+    background: rgb(100, 100, 172);
+
+
+    text-decoration: none;
+
+    height: 30px;
+    display: grid;
+    border: none;
+    margin:0;
+    border:0;
+
+
+}
+
+.anexo h6 {
+    margin-top: 0;
+    margin-left: 50px;
+}
+    
+.lastdiv input{
+    color: white;
+    background: rgb(100, 100, 172);
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 280px;
+    height: 30px;
+
+}
+
